@@ -1,0 +1,28 @@
+"""
+Maximum of two numbers in Python
+Input: a = 2, b = 4
+Output: 4
+
+Input: a = -1, b = -4
+Output: -1
+"""
+
+
+def maximum(a, b):
+    if a >= b:
+        return a
+    else:
+        return b
+
+
+def maximum2(a, b):
+    return max(a, b)
+
+
+if __name__ == "__main__":
+    a = -1
+    b = -4
+    print(maximum(a, b))
+    print(maximum2(a, b))
+    print(a if a >= b else b)
+    
