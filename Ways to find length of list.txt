@@ -1,0 +1,23 @@
+"""
+Python | Ways to find length of list
+test_list = [1, 4, 5, 7, 8]
+"""
+
+
+def length1(a: list[int]) -> list[int]:
+    counter = 0
+    for i in range(len(a)):
+        counter += 1
+    return counter
+
+
+def length2(a: list[int]) -> list[int]:
+    return len(a)
+
+
+if __name__ == "__main__":
+    a = [1, 4, 5, 7, 8]
+    print(length1(a))
+    print(length2(a))
+
+
