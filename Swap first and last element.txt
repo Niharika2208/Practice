@@ -1,0 +1,14 @@
+"""
+Python program to interchange first and last elements in a list
+"""
+
+
+def interchange(a: list[int]) -> list[int]:
+    if len(a) > 1:
+        a[0], a[len(a)-1] = a[len(a)-1], a[0]
+    return a
+
+
+if __name__ == "__main__":
+    a = [2, 9, 6, 10, 5, 7]
+    print(interchange(a))
