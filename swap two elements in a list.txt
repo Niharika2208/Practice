@@ -1,0 +1,21 @@
+"""
+Python program to swap two elements in a list
+
+Input : List = [23, 65, 19, 90], pos1 = 1, pos2 = 3
+Output : [19, 65, 23, 90]
+
+"""
+
+
+def swap(a: list[int]) -> list[int]:
+    if len(a) > 1:
+        temp = a[0]
+        a[0] = a[2]
+        a[2] = temp
+    return a
+
+
+if __name__ == "__main__":
+    a = [23, 65, 19, 90]
+    print(swap(a))
+
