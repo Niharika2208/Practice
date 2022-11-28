@@ -4,6 +4,8 @@ Python program to swap two elements in a list
 Input : List = [23, 65, 19, 90], pos1 = 1, pos2 = 3
 Output : [19, 65, 23, 90]
 
+
+To Try: Take the input from the user to which possition needs to be swaped. and then perform your swap function.
 """
 
 
