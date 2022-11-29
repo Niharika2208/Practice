@@ -4,3 +4,8 @@ Python List Exercises
 	Python | Ways to find length of list
 	Maximum of two numbers in Python
 	Minimum of two numbers in Python
+	Python | Ways to check if element exists in list
+        Different ways to clear a list in Python
+	Python | Reversing a List
+	Python | Cloning or Copying a list
+	Python | Count occurrences of an element in a list
