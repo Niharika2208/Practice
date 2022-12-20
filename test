@@ -1,0 +1,2 @@
+n = input("Enter a number")
+if n == 2 or n == 3:
